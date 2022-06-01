@@ -1,14 +1,16 @@
 {
-  "uid" : "76d2a7efd2c939d4",
+  "uid" : "67dee0f07b6cf4da",
   "name" : "test_nav_links",
   "fullName" : "tests.test_homepage.TestHomepage#test_nav_links",
   "historyId" : "7864a3d1e1f1b5cf0bc702b21217127a",
   "time" : {
-    "start" : 1653647951464,
-    "stop" : 1653647988866,
-    "duration" : 37402
+    "start" : 1654085879612,
+    "stop" : 1654085882072,
+    "duration" : 2460
   },
-  "status" : "passed",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 4 == 5",
+  "statusTrace" : "self = <tests.test_homepage.TestHomepage object at 0x0000013D0CBD95A0>\n\n    def test_nav_links(self):\n        homepage_nav = HomepageNav(self.driver)\n        for indx in range(1):\n            homepage_nav.get_nav_links()[indx].click()\n>       assert 4==5\nE       assert 4 == 5\n\ntests\\test_homepage.py:13: AssertionError",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -18,62 +20,62 @@
   "beforeStages" : [ {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1653647941295,
-      "stop" : 1653647941295,
+      "start" : 1654085874039,
+      "stop" : 1654085874039,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
+    "hasContent" : false,
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0
   }, {
     "name" : "get_webdriver",
     "time" : {
-      "start" : 1653647941295,
-      "stop" : 1653647943079,
-      "duration" : 1784
+      "start" : 1654085874039,
+      "stop" : 1654085875530,
+      "duration" : 1491
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
+    "hasContent" : false,
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1653647943080,
-      "stop" : 1653647951462,
-      "duration" : 8382
+      "start" : 1654085875530,
+      "stop" : 1654085879609,
+      "duration" : 4079
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
+    "hasContent" : false,
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "setup::0",
     "time" : {
-      "start" : 1653647988867,
-      "stop" : 1653647991039,
-      "duration" : 2172
+      "start" : 1654085882158,
+      "stop" : 1654085884300,
+      "duration" : 2142
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
+    "hasContent" : false,
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0
   } ],
@@ -94,7 +96,7 @@
     "value" : "Legion"
   }, {
     "name" : "thread",
-    "value" : "21696-MainThread"
+    "value" : "28008-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -116,6 +118,6 @@
     "categories" : [ ],
     "tags" : [ "@pytest.mark.usefixtures('setup')" ]
   },
-  "source" : "76d2a7efd2c939d4.json",
+  "source" : "67dee0f07b6cf4da.json",
   "parameterValues" : [ ]
 }

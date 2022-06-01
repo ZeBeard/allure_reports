@@ -9,7 +9,7 @@
         "name" : "TestHomepage",
         "children" : [ {
           "name" : "test_nav_links",
-          "uid" : "1b9a7d17bfd0550b",
+          "uid" : "d8b6c5677439221c",
           "parentUid" : "a59518f5ebb4a9ebbfa4fc7d50b941c3",
           "status" : "passed",
           "time" : {

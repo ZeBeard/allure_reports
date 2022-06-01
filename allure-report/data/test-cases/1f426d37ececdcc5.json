@@ -1,12 +1,12 @@
 {
-  "uid" : "eebe8aff4bdb2256",
+  "uid" : "1f426d37ececdcc5",
   "name" : "test_nav_links",
   "fullName" : "tests.test_homepage.TestHomepage#test_nav_links",
   "historyId" : "7864a3d1e1f1b5cf0bc702b21217127a",
   "time" : {
-    "start" : 1653735199571,
-    "stop" : 1653735202257,
-    "duration" : 2686
+    "start" : 1654088200216,
+    "stop" : 1654088202965,
+    "duration" : 2749
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,62 +18,62 @@
   "beforeStages" : [ {
     "name" : "get_chrome_options",
     "time" : {
-      "start" : 1653735194866,
-      "stop" : 1653735194866,
+      "start" : 1654088195230,
+      "stop" : 1654088195230,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
+    "hasContent" : false,
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0
   }, {
     "name" : "get_webdriver",
     "time" : {
-      "start" : 1653735194866,
-      "stop" : 1653735195996,
-      "duration" : 1130
+      "start" : 1654088195230,
+      "stop" : 1654088196288,
+      "duration" : 1058
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
+    "hasContent" : false,
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1653735195996,
-      "stop" : 1653735199569,
-      "duration" : 3573
+      "start" : 1654088196288,
+      "stop" : 1654088200215,
+      "duration" : 3927
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
+    "hasContent" : false,
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "setup::0",
     "time" : {
-      "start" : 1653735202257,
-      "stop" : 1653735204419,
-      "duration" : 2162
+      "start" : 1654088202966,
+      "stop" : 1654088205126,
+      "duration" : 2160
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "hasContent" : false,
     "stepsCount" : 0,
+    "hasContent" : false,
     "shouldDisplayMessage" : false,
     "attachmentsCount" : 0
   } ],
@@ -94,7 +94,7 @@
     "value" : "Legion"
   }, {
     "name" : "thread",
-    "value" : "29416-MainThread"
+    "value" : "32544-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -116,6 +116,6 @@
     "categories" : [ ],
     "tags" : [ "@pytest.mark.usefixtures('setup')" ]
   },
-  "source" : "eebe8aff4bdb2256.json",
+  "source" : "1f426d37ececdcc5.json",
   "parameterValues" : [ ]
 }

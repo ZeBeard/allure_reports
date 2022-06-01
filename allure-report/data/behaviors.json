@@ -3,7 +3,7 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "test_nav_links",
-    "uid" : "1b9a7d17bfd0550b",
+    "uid" : "d8b6c5677439221c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
