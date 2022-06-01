@@ -1,0 +1,123 @@
+{
+  "uid" : "24084c351a1bcf36",
+  "name" : "test_nav_links",
+  "fullName" : "tests.test_homepage.TestHomepage#test_nav_links",
+  "historyId" : "7864a3d1e1f1b5cf0bc702b21217127a",
+  "time" : {
+    "start" : 1654088326095,
+    "stop" : 1654088328549,
+    "duration" : 2454
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 4 == 5",
+  "statusTrace" : "self = <tests.test_homepage.TestHomepage object at 0x0000016C72A43C40>\n\n    def test_nav_links(self):\n        homepage_nav = HomepageNav(self.driver)\n        for indx in range(1):\n            homepage_nav.get_nav_links()[indx].click()\n>       assert 4==5\nE       assert 4 == 5\n\ntests\\test_homepage.py:13: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "get_chrome_options",
+    "time" : {
+      "start" : 1654088321139,
+      "stop" : 1654088321140,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1654088321140,
+      "stop" : 1654088322207,
+      "duration" : 1067
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1654088322207,
+      "stop" : 1654088326093,
+      "duration" : 3886
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1654088328629,
+      "stop" : 1654088330778,
+      "duration" : 2149
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('setup')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_homepage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHomepage"
+  }, {
+    "name" : "host",
+    "value" : "Legion"
+  }, {
+    "name" : "thread",
+    "value" : "27868-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('setup')" ]
+  },
+  "source" : "24084c351a1bcf36.json",
+  "parameterValues" : [ ]
+}

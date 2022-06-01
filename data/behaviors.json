@@ -3,19 +3,19 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "test_nav_links",
-    "uid" : "d8b6c5677439221c",
+    "uid" : "9c5b674d1f5ad601",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "failed",
     "time" : {
-      "start" : 1654089564517,
-      "stop" : 1654089567293,
-      "duration" : 2776
+      "start" : 1654093136505,
+      "stop" : 1654093138768,
+      "duration" : 2263
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 12,
+    "retriesCount" : 13,
     "retriesStatusChange" : true,
     "parameters" : [ ]
   } ]

@@ -1,20 +1,21 @@
 {
   "7864a3d1e1f1b5cf0bc702b21217127a" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d8b6c5677439221c",
-      "status" : "passed",
+      "uid" : "9c5b674d1f5ad601",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 5 == 4",
       "time" : {
-        "start" : 1654089564517,
-        "stop" : 1654089567293,
-        "duration" : 2776
+        "start" : 1654093136505,
+        "stop" : 1654093138768,
+        "duration" : 2263
       }
     } ]
   }

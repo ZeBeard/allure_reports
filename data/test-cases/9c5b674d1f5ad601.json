@@ -1,0 +1,237 @@
+{
+  "uid" : "9c5b674d1f5ad601",
+  "name" : "test_nav_links",
+  "fullName" : "tests.test_homepage.TestHomepage#test_nav_links",
+  "historyId" : "7864a3d1e1f1b5cf0bc702b21217127a",
+  "time" : {
+    "start" : 1654093136505,
+    "stop" : 1654093138768,
+    "duration" : 2263
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 5 == 4",
+  "statusTrace" : "self = <tests.test_homepage.TestHomepage object at 0x0000020A17673DC0>\n\n    def test_nav_links(self):\n        homepage_nav = HomepageNav(self.driver)\n        for indx in range(1):\n            homepage_nav.get_nav_links()[indx].click()\n>       assert 5==4\nE       assert 5 == 4\n\ntests\\test_homepage.py:13: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 13,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "get_chrome_options",
+    "time" : {
+      "start" : 1654093131811,
+      "stop" : 1654093131811,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_webdriver",
+    "time" : {
+      "start" : 1654093131811,
+      "stop" : 1654093132920,
+      "duration" : 1109
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1654093132920,
+      "stop" : 1654093136504,
+      "duration" : 3584
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1654093138849,
+      "stop" : 1654093140991,
+      "duration" : 2142
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('setup')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_homepage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHomepage"
+  }, {
+    "name" : "host",
+    "value" : "Legion"
+  }, {
+    "name" : "thread",
+    "value" : "37496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7d57ce2a0e4c110e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654089564517,
+        "stop" : 1654089567293,
+        "duration" : 2776
+      }
+    }, {
+      "uid" : "24084c351a1bcf36",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 5",
+      "time" : {
+        "start" : 1654088326095,
+        "stop" : 1654088328549,
+        "duration" : 2454
+      }
+    }, {
+      "uid" : "cd5463c79eb26166",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654088200216,
+        "stop" : 1654088202965,
+        "duration" : 2749
+      }
+    }, {
+      "uid" : "16a50267149e6bd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654086086065,
+        "stop" : 1654086089116,
+        "duration" : 3051
+      }
+    }, {
+      "uid" : "2a6a230a928b835b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 5",
+      "time" : {
+        "start" : 1654085960936,
+        "stop" : 1654085963468,
+        "duration" : 2532
+      }
+    }, {
+      "uid" : "3ba59bcee30c1147",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 5",
+      "time" : {
+        "start" : 1654085879612,
+        "stop" : 1654085882072,
+        "duration" : 2460
+      }
+    }, {
+      "uid" : "687bad27231bd048",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653735990459,
+        "stop" : 1653735991078,
+        "duration" : 619
+      }
+    }, {
+      "uid" : "461b423e87b58639",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653735199571,
+        "stop" : 1653735202257,
+        "duration" : 2686
+      }
+    }, {
+      "uid" : "7d2026d6bce2f8fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653735057555,
+        "stop" : 1653735060259,
+        "duration" : 2704
+      }
+    }, {
+      "uid" : "de4b71a0b4b53ac7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653734951936,
+        "stop" : 1653734954910,
+        "duration" : 2974
+      }
+    }, {
+      "uid" : "7fe5877cacf2da5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653648247521,
+        "stop" : 1653648283683,
+        "duration" : 36162
+      }
+    }, {
+      "uid" : "5465a22d46caf58c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_TIMED_OUT\n  (Session info: chrome=102.0.5005.63)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00DDD953+2414931]\n\tOrdinal0 [0x00D6F5E1+1963489]\n\tOrdinal0 [0x00C5C6B8+837304]\n\tOrdinal0 [0x00C58E18+822808]\n\tOrdinal0 [0x00C4DE5D+777821]\n\tOrdinal0 [0x00C4EA3B+780859]\n\tOrdinal0 [0x00C4E06A+778346]\n\tOrdinal0 [0x00C4D646+775750]\n\tOrdinal0 [0x00C4C565+771429]\n\tOrdinal0 [0x00C4CA3D+772669]\n\tOrdinal0 [0x00C5DEA4+843428]\n\tOrdinal0 [0x00CB4EBD+1199805]\n\tOrdinal0 [0x00CA449C+1131676]\n\tOrdinal0 [0x00CB4812+1198098]\n\tOrdinal0 [0x00CA42B6+1131190]\n\tOrdinal0 [0x00C7E860+976992]\n\tOrdinal0 [0x00C7F756+980822]\n\tGetHandleVerifier [0x0104CC62+2510274]\n\tGetHandleVerifier [0x0103F760+2455744]\n\tGetHandleVerifier [0x00E6EABA+551962]\n\tGetHandleVerifier [0x00E6D916+547446]\n\tOrdinal0 [0x00D75F3B+1990459]\n\tOrdinal0 [0x00D7A898+2009240]\n\tOrdinal0 [0x00D7A985+2009477]\n\tOrdinal0 [0x00D83AD1+2046673]\n\tBaseThreadInitThunk [0x76646739+25]\n\tRtlGetFullPathName_UEx [0x77D78FEF+1215]\n\tRtlGetFullPathName_UEx [0x77D78FBD+1165]",
+      "time" : {
+        "start" : 1653648083874,
+        "stop" : 1653648083874,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ef4a9e51b3c7a82c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653647951464,
+        "stop" : 1653647988866,
+        "duration" : 37402
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('setup')" ]
+  },
+  "source" : "9c5b674d1f5ad601.json",
+  "parameterValues" : [ ]
+}

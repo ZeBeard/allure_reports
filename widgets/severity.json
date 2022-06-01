@@ -1,11 +1,11 @@
 [ {
-  "uid" : "d8b6c5677439221c",
+  "uid" : "9c5b674d1f5ad601",
   "name" : "test_nav_links",
   "time" : {
-    "start" : 1654089564517,
-    "stop" : 1654089567293,
-    "duration" : 2776
+    "start" : 1654093136505,
+    "stop" : 1654093138768,
+    "duration" : 2263
   },
-  "status" : "passed",
+  "status" : "failed",
   "severity" : "normal"
 } ]
