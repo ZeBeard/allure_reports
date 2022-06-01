@@ -5,7 +5,7 @@
     "name" : "tests.test_homepage",
     "children" : [ {
       "name" : "test_nav_links",
-      "uid" : "9c5b674d1f5ad601",
+      "uid" : "46046ec968ac8d2",
       "parentUid" : "f2eb6a3d0fa54632aa9bdb7f388512c4",
       "status" : "failed",
       "time" : {
