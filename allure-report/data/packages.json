@@ -1,0 +1,26 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.test_homepage",
+    "children" : [ {
+      "name" : "test_nav_links",
+      "uid" : "1b9a7d17bfd0550b",
+      "parentUid" : "f2eb6a3d0fa54632aa9bdb7f388512c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654089564517,
+        "stop" : 1654089567293,
+        "duration" : 2776
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 12,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.test_homepage"
+  } ]
+}

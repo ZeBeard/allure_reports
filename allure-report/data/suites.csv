@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jun 01 16:19:24 EEST 2022","Wed Jun 01 16:19:27 EEST 2022","2776","tests","test_homepage","TestHomepage","","","test_nav_links",""
